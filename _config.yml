@@ -1,22 +1,15 @@
-title: wu-kan # 站点标题
-description: | # 头像背后的信息（html格式），<br/>代表换行
-  SYSU第6年<br/>
-  水野爱<br/>
-  田宫例四驱车<br/>
-  <a href="mailto:i@wu-kan.cn">
+title: 개발하는 현도영
+description: | 
+  인천대 재학 中<br/>
+  초보 게임개발자<br/>
+  <a href="mailto:doyeong.hyun@gmail.com">
     <i class="fa-solid fa-envelope"></i>
   </a>
-  <a href="https://github.com/wu-kan">
+  <a href="https://github.com/doyeonghyun">
     <i class="fa-brands fa-github"></i>
   </a>
   <a href="https://vjudge.net/user/WuK">
     <i class="fa-solid fa-smile"></i>
-  </a>
-  <a href="https://space.bilibili.com/166390020">
-    <i class="fa-brands fa-bilibili"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities">
-    <i class="fa-brands fa-zhihu"></i>
   </a>
   <br/>
 url: https://doyeonghyun.github.io
@@ -49,13 +42,13 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               enable: true
               img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
-              - title: '<i class="fa-solid fa-home fa-fw"></i> 首页'
+              - title: '<i class="fa-solid fa-home fa-fw"></i> 홈페이지'
                 href: /
-              - title: '<i class="fa-solid fa-comment fa-fw"></i> 留言'
+              - title: '<i class="fa-solid fa-comment fa-fw"></i> 메시지'
                 href: /comments/
-              - title: '<i class="fa-solid fa-archive fa-fw"></i> 归档'
+              - title: '<i class="fa-solid fa-archive fa-fw"></i> 아카이브'
                 href: /archive/
-              - title: '<i class="fa-solid fa-tags fa-fw"></i> 标签'
+              - title: '<i class="fa-solid fa-tags fa-fw"></i> 태그'
                 href: /tags/
               - title: '<i class="fa-solid fa-coffee fa-fw"></i> 打赏'
                 href: /merger/
