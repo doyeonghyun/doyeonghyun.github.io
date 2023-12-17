@@ -8,12 +8,11 @@
   - **[doyeong.hyun@gmail.com](mailto:doyeong.hyun@gmail.com)**
 - Site
   - **<https://doyeonghyun.github.io>**
-  - 
 <!-- .slide -->
 
 ## Language
 
-- **python++**
+- **python**
 - **C/C++**
 
 <!-- .slide vertical=true -->
