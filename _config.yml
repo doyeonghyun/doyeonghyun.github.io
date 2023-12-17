@@ -1,8 +1,7 @@
-title: development diary
+title: doyeonghyun
 description: | 
   - Doyeong Hyun<br/>
-  - Incheon National University <br/>
-  2020 - Present</br>
+  - Incheon National University 2020 - Present</br>
   - Beginning game developer<br/>
   <br/>
   <a href="mailto:doyeong.hyun@gmail.com">
@@ -43,7 +42,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+              img: https://imgur.com/UK1cfNL # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fa-solid fa-home fa-fw"></i> 홈페이지'
                 href: /
