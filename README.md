@@ -8,8 +8,7 @@
   - **[doyeong.hyun[@]gmail.com](mailto:doyeong.hyun@gmail.com)**
 - Site
   - **<https://doyeonghyun.github.io>**
-<!-- .slide vertical=true -->
-
+  - 
 <!-- .slide -->
 
 ## Language
