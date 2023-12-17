@@ -1,7 +1,10 @@
-title: 개발하는 현도영
+title: development diary
 description: | 
-  인천대 재학 中<br/>
-  초보 게임개발자<br/>
+  - Doyeong Hyun<br/>
+  - Incheon National University <br/>
+  2020 - Present</br>
+  - Beginning game developer<br/>
+  <br/>
   <a href="mailto:doyeong.hyun@gmail.com">
     <i class="fa-solid fa-envelope"></i>
   </a>
@@ -169,16 +172,16 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   <i class="fa-solid fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>天
+                  </span>년
                   <span id="run_time_hour">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>时
+                  </span>시
                   <span id="run_time_minute">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>分
+                  </span>분
                   <span id="run_time_second">
                     <i class="fa-solid fa-spinner fa-pulse"></i>
-                  </span>秒
+                  </span>초
                   <script>
                     setInterval(function (d,h,m,s,b) {
                       function setzero(i) {
@@ -216,19 +219,19 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     <i class="fa-solid fa-eye fa-fw"></i>
                     <span id="busuanzi_value_page_pv">
                       <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>次
+                    </span>회
                   </div>
                   <div>
                     <i class="fa-solid fa-paw fa-fw"></i>
                     <span id="busuanzi_value_site_pv">
                       <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>枚
+                    </span>번
                   </div>
                   <div>
                     <i class="fa-solid fa-user-friends fa-fw"></i>
                     <span id="busuanzi_value_site_uv">
                       <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>人
+                    </span>명
                   </div>
                   <script
                     src='https://cdn.jsdelivr.net/npm/busuanzi@2.3/bsz.pure.mini.js'
@@ -245,7 +248,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # Copyright声明
                 <div>
                   <i class="fa-solid fa-copyright fa-fw"></i>
-                  2017-2022 WuK
+                  @2017-2022 WuK
                 </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
