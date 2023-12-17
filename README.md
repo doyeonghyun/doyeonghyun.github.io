@@ -1,6 +1,6 @@
-# 星合の空
+# doyeonghyun.github
 
-欢迎访问我的主页！下面向你介绍一下我吧\~
+Hello! I'm Doyeong Hyun. This is my personal homepage where I upload my studies and projects.
 
 <!-- .slide -->
 
