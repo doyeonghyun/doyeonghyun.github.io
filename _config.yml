@@ -70,7 +70,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
                 <input
                   id="sidebar-search-input"
-                  placeholder="搜索博文"
+                  placeholder="검색"
                 />
                 <ol
                   id="sidebar-search-results-container"
@@ -163,18 +163,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
               - | # 不蒜子页面统计，看不懂可不改
                 <div>
-                  <div>
-                    <i class="fa-solid fa-eye fa-fw"></i>
-                    <span id="busuanzi_value_page_pv">
-                      <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>회
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-paw fa-fw"></i>
-                    <span id="busuanzi_value_site_pv">
-                      <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>번
-                  </div>
                   <div>
                     <i class="fa-solid fa-user-friends fa-fw"></i>
                     <span id="busuanzi_value_site_uv">
