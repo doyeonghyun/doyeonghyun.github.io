@@ -48,7 +48,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - title: '<i class="fa-solid fa-archive fa-fw"></i> 아카이브'
                 href: /archive/
               - title: '<i class="fa-solid fa-tags fa-fw"></i> 태그'
-                href: /tags/ㅎ=
+                href: /tags/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
@@ -220,12 +220,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
+                href="https://i.imgur.com/UK1cfNL.png"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
+                href="https://i.imgur.com/UK1cfNL.png"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
