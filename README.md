@@ -2,6 +2,10 @@
 
 **Hello! I'm Doyeong Hyun.** This is my personal homepage where I upload my studies and projects.
 
+<!-- .slide vertical=true -->
+The blog isn't finished yet. I'm still in the cleanup phase.<br>
+블로그가 아직 완성되지 않았습니다. 현재 정리 단계에 있습니다.
+
 <!-- .slide -->
 ## Contact
 - E-mail:
