@@ -17,7 +17,7 @@ jekyll-theme-WuK:
 
 ```vega-lite
 {% capture json_data %}[
-{% for tag in site.tags.portfolio reversed %}
+{% for tag in site.tags.포트폴리오 reversed %}
  , {"tags": "{{ tag[0] }}", "count": {{ tag[1].size }} }
 {% endfor %}
 ]{% endcapture %}
@@ -34,7 +34,7 @@ jekyll-theme-WuK:
 
 {% endif %}
 
-{% for post in site.tags.portfolio reversed %}
+{% for post in site.tags.포트폴리오 reversed %}
 {{ post[0] }}
 ## {{ tag[0] }}
 
