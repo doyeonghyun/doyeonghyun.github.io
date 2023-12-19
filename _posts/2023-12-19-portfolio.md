@@ -14,6 +14,7 @@ jekyll-theme-WuK:
 모든 게시글의 카탈로그는 태그로 분류됩니다.
 
 {% if page.jekyll-theme-WuK.tags.vega_lite.enable %}
+```vega-lite
   {% assign portfolio_posts = site.posts | where_exp: "post", "post.path contains '/portfolio/'" %}
   {% capture json_data %}
   [
@@ -31,6 +32,7 @@ jekyll-theme-WuK:
     },
     "mark": "bar"
   }
+```
 {% endif %}
 
 {% for tag in portfolio_posts | group_by: 'tags' %}
