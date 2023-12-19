@@ -7,7 +7,7 @@ jekyll-theme-WuK:
     sidebar:
       open: true
   tags:
-    vega_lite: # 显示一个统计图，需要引入 vega-lite
+    vega_lite: # 통계 그래프 표시, vega-lite를 가져와야 함
       enable: true
 ---
 
@@ -17,7 +17,7 @@ jekyll-theme-WuK:
 
 ```vega-lite
 {% capture json_data %}[
-{% for tag in site.tags.포트폴리오 reversed %}
+{% for tag in site.tags.portfolio reversed %}
  , {"tags": "{{ tag[0] }}", "count": {{ tag[1].size }} }
 {% endfor %}
 ]{% endcapture %}
@@ -30,11 +30,12 @@ jekyll-theme-WuK:
   },
   "mark": "bar"
 }
-```
+
 
 {% endif %}
 
-{% for tag in site.tags.포트폴리오 reversed %}
+{% for post in site.tags.portfolio reversed %}
+{{ post[0] }}
 ## {{ tag[0] }}
 
 {% for post in tag[1] %}
