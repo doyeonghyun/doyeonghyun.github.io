@@ -163,19 +163,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     transform: rotate3d(0, 1, 0, -180deg);
                   }
                 </style>
-              - | # 不蒜子页面统计，看不懂可不改
-                <div>
-                  <div>
-                    <i class="fa-solid fa-user-friends fa-fw"></i>
-                    <span id="busuanzi_value_site_uv">
-                      <i class="fa-solid fa-spinner fa-pulse"></i>
-                    </span>명
-                  </div>
-                  <script
-                    src='https://cdn.jsdelivr.net/npm/busuanzi@2.3/bsz.pure.mini.js'
-                    async='async'
-                  ></script>
-                </div>
               - | # 觉得我的主题好用的话，让更多的人知道它吧！
                 <div>
                   <i class="fa-solid fa-thumbs-up fa-fw"></i>
