@@ -15,7 +15,7 @@ jekyll-theme-WuK:
 
 {% if page.jekyll-theme-WuK.tags.vega_lite.enable %}
 ```vega-lite
-  {% assign portfolio_posts = site.posts | where_exp: "post", "post.path contains '/portfolio/'" %}
+  {% assign portfolio_posts = site.posts | where_exp: "_posts", "_posts.path contains '/portfolio/'" %}
   {% capture json_data %}
   [
     {% for tag in portfolio_posts | group_by: 'tags' %}
