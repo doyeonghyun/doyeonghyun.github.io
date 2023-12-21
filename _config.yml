@@ -1,8 +1,8 @@
 title: doyeonghyun
 description: | 
-  - Doyeong Hyun<br/>
-  - Incheon National University 2020 - Present</br>
-  - Beginning game developer<br/>
+  <br/>
+  <br/>
+  <br/>
   <br/>
   <a href="mailto:doyeong.hyun@gmail.com">
     <i class="fa-solid fa-envelope"></i>
@@ -134,12 +134,29 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
               - | # 侧边栏头像效果
                 <style>
+                 .effect {
+                    margin: 1rem;
+                    perspective: 900px;
+                  }
                   .effect-info {
                     text-align: center;
                     position: absolute;
                     top: 0;
                     width: 100%;
                     transform-style: preserve-3d;
+                     font-size: 10px; 
+                  }
+                  .effect-img {
+                    z-index: 11;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    transition: all 0.5s ease-in-out;
+                  }
+                  .effect-img:before {
+                    position: absolute;
+                    display: block;
+                  }
                   }
                 </style>
               - | # 觉得我的主题好用的话，让更多的人知道它吧！
