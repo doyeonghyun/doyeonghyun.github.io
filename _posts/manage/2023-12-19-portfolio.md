@@ -17,25 +17,26 @@ jekyll-theme-WuK:
 
 ```vega-lite
 {% capture json_data %}[
-{% for portfolio in site.portfolio reversed %}
- , {"portfolio": "{{ portfolio[0] }}", "count": {{ portfolio[1].size }} }
+{% for tag in site.portfolio reversed %}
+ , {"tags": "{{ portfolio[0] }}", "count": {{ portfolio[1].size }} }
 {% endfor %}
 ]{% endcapture %}
 {% assign json_data = json_data | remove_first: "," %}
 {
   "data": { "values": {{ json_data }} },
   "encoding": {
-    "y": {"field": "portfolio", "type": "nominal"},
+    "y": {"field": "tags", "type": "nominal"},
     "x": {"field": "count", "type": "quantitative" }
   },
   "mark": "bar"
 }
 ```
+
 {% endif %}
 
-{% for portfolio in site.portfolio reversed %}
-## {{ portfolio[0] }}
+{% for tag in site.tags reversed %}
+## {{ tag[0] }}
 
-{% for post in portfolio[1] %}
-- *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }})
+{% for post in tag[1] %}
+- *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }}){% endfor %}
 {% endfor %}
