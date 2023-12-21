@@ -38,7 +38,7 @@ jekyll-theme-WuK:
 
 {% for tag in site.tags reversed %} 
   {% if tag[0] == target_tag %}
-  ## {{ tag[0] }}
+## {{ tag[0] }}
 
 {% for post in tag[1] %}
 - *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }}){% endfor %}
