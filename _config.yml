@@ -95,39 +95,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                       fuzzy: true
                     })'
                 ></script>
-            <style>
-              #toc {
-                overflow: hidden;
-                max-height: 66.6vh;
-                transition: max-height 0.3s ease-out;
-              }
-            
-              #toc:hover, #toc.active {
-                overflow: auto;
-              }
-            
-              #toggleTocButton {
-                cursor: pointer;
-                color: blue;
-                text-decoration: underline;
-              }
-            </style>
-            
-            <div id="toc">
-              <!-- 여기에 목차 내용이 들어갑니다. -->
-            </div>
-            
-            <div id="toggleTocButton">더 보기 / 접기</div>
-            
-            <script>
-              document.addEventListener("DOMContentLoaded", function () {
-                var toc = document.getElementById("toc");
-                var toggleButton = document.getElementById("toggleTocButton");
-            
-                toggleButton.addEventListener("click", function () {
-                  toc.classList.toggle("active");
-                });
-              });
             </script>
 
             append_to_sidebar:
