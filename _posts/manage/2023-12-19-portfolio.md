@@ -37,7 +37,7 @@ jekyll-theme-WuK:
 {% assign target_tag = "포트폴리오" %}
 
 {% for tag in site.tags reversed %} 
-  {% if tag[0] == target_tag %}
+  {% if tag[0] contains target_tag %}
 ## {{ tag[0] }}
 
 {% for post in tag[1] %}
