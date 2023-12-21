@@ -461,14 +461,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                       }'
                 ></script>
         post:
-          date: # 显示博文时间
+          date:
             enable: true
             prepend: <i class="fa-solid fa-calendar-day fa-fw"></i>
-          readtime: # 计算文章阅读时间
-            enable: true
-            prepend: <i class="fa-solid fa-clock fa-fw"></i>
-            unit: 분
-            divided_by: 300 # 正常人的阅读速度大概每分钟三百个字
           copyright:
             | 
             <i class="fab fa-creative-commons-by fa-fw"></i>
