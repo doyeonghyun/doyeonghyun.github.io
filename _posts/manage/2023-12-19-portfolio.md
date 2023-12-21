@@ -16,7 +16,7 @@ jekyll-theme-WuK:
 
 ```vega-lite
 {% capture json_data %}[
-{% for tag in site.tags.포트폴리오 reversed %}
+{% for tag in site.tags.['포트폴리오'] reversed %}
  , {"tags": "{{ tag[0] }}", "count": {{ tag[1].size }} }
 {% endfor %}
 ]{% endcapture %}
@@ -32,10 +32,20 @@ jekyll-theme-WuK:
 ```
 {% endif %}
 
-{% for post in site.tags.포트폴리오 reversed %}
+{% for post in site.tags.['포트폴리오'] reversed %}
 ## {{ post[0] }}
 
 {% for post_item in post[1] %}
 - *{{ post_item.date | date_to_string }}* [{{ post_item.title }}]({{ post_item.url | relative_url }})
 {% endfor %}
 {% endfor %}
+
+
+***
+{% assign i = 0 %}
+{% for post in site.posts %}{% assign year = post.date | date: page.jekyll-theme-WuK.archive.group_by %}{% assign nyear = post.next.date | date: page.jekyll-theme-WuK.archive.group_by %}{% if year != nyear > '2023-12-18'  %}
+
+## {{ year }}{% assign i = i | plus: 1 %}
+
+{% endif %}
+- _{{ post.date | date_to_string }}_ [{{ post.title }}]({{ post.url | relative_url }}){% endfor %}
