@@ -17,7 +17,7 @@ jekyll-theme-WuK:
 
 ```vega-lite
 {% capture json_data %}[
-{% for tag in site.portfolio reversed %}
+{% for portfolio in site.portfolio reversed %}
  , {"portfolio": "{{ portfolio[0] }}", "count": {{ portfolio[1].size }} }
 {% endfor %}
 ]{% endcapture %}
@@ -31,12 +31,12 @@ jekyll-theme-WuK:
   "mark": "bar"
 }
 ```
-
 {% endif %}
 
 {% for portfolio in site.portfolio reversed %}
 ## {{ portfolio[0] }}
 
 {% for post in portfolio[1] %}
-- *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }}){% endfor %}
+- *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
 {% endfor %}
