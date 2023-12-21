@@ -39,4 +39,3 @@ jekyll-theme-WuK:
 {% for post in portfolio[1] %}
 - *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
-{% endfor %}
