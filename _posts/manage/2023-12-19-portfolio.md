@@ -17,8 +17,11 @@ jekyll-theme-WuK:
 
 ```vega-lite
 {% capture json_data %}[
+{% assign target_tag = "포트폴리오" %}
 {% for tag in site.tags reversed %}
+  {% if tag[0] contains target_tag %}
  , {"tags": "{{ tag[0] }}", "count": {{ tag[1].size }} }
+  {% endif %}
 {% endfor %}
 ]{% endcapture %}
 {% assign json_data = json_data | remove_first: "," %}
