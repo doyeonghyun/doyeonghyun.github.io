@@ -38,12 +38,14 @@ jekyll-theme-WuK:
 {% endif %}
 
 {% assign target_tags = ["포트폴리오", "테스트"] %}
+{% for target_tag in target_tags %}
+  {% for tag in site.tags reversed %}
+    {% if tag[0] contains target_tag %}
+  ## {{ tag[0] }}
 
-{% for tag in site.tags reversed %} 
-  {% if tag[0] contains target_tag %}
-## {{ tag[0] }}
-
-{% for post in tag[1] %}
-- *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }}){% endfor %}
-  {% endif %}
+      {% for post in tag[1] %}
+  - *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }})
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
