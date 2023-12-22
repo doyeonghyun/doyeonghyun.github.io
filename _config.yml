@@ -304,7 +304,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h5::before,
                 h6::before,
                 blockquote::before {
-                  font-family: "Font Awesome 6 Free";
+                  font-family: "DotGothic16";
                   font-weight: bold;
                   font-size: smaller;
                   margin-right: .5rem;
