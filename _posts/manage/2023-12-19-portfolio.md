@@ -37,7 +37,7 @@ jekyll-theme-WuK:
 
 {% endif %}
 
-{% assign target_tags = ["포트폴리오", "테스"] %}
+{% assign target_tags = ["포트폴리오", "테스트"] %}
 
 {% for tag in site.tags reversed %} 
   {% if tag[0] contains target_tag %}
