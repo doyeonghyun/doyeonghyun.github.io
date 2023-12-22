@@ -233,7 +233,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                 }
               </style>
-            - | # <https://zenozeng.github.io/fonts.css/>，跨平台中文字体解决方案
+            - | # 
               <link
                 rel="stylesheet" #네오둥근모
                 href="//cdn.jsdelivr.net/gh/neodgm/neodgm-pro-webfont@latest/neodgm_pro/style.css"
@@ -245,7 +245,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <link
                 rel="stylesheet"
                 href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
-              /> #삭제
+              /> 
+              <style>
+                .sidebar, html, h1, h2, h3, h4, h5, h6, code, pre {
+                  font-family: "NeoDunggeunmo Pro", "DotGothic16";
+                }
+              </style>
             - | # 修复行内图片默认样式
               <style>
                 img {
