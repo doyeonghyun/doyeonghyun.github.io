@@ -37,15 +37,14 @@ jekyll-theme-WuK:
 
 {% endif %}
 
-{% assign target_tags = ["포트폴리오", "테스트"] %}
-{% for target_tag in target_tags %}
-  {% for tag in site.tags reversed %}
-    {% if tag[0] contains target_tag %}
-  ## {{ tag[0] }}
+{% assign target_tags = "포트폴리오, 테스트" | split: ', ' %}
 
-      {% for post in tag[1] %}
-  - *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }})
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+{% for tag in site.tags reversed %}
+  {% if target_tags | where: tag[0] %}
+## {{ tag[0] }}
+
+{% for post in tag[1] %}
+- *{{ post.date | date_to_string }}* [{{ post.title }}]({{ post.url | relative_url }}){% endfor %}
+  {% endif %}
 {% endfor %}
+
