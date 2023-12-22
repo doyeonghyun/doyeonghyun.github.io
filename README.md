@@ -4,6 +4,7 @@
 
 <!-- .slide vertical=true -->
 ## For mobile
+- [comments](https://doyeonghyun.github.io/comments/)
 - [archive](https://doyeonghyun.github.io/archive/)
 - [portfolio](https://doyeonghyun.github.io/portfolio/)
 - [tag](https://doyeonghyun.github.io/tags/)
