@@ -245,12 +245,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <link
                 rel="stylesheet"
                 href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
-              />
-              <style>
-                .sidebar, html, h1, h2, h3, h4, h5, h6, code, pre {
-                  font-family: "NeoDunggeunmo Pro", "Courier New", "Courier", "DotGothic16", "DotGothic16", "DotGothic16", "DotGothic16", "DotGothic16", "Source Han Serif SC", "Source Han Serif CN", STZhongsong, STSong, "Songti SC", "AR PL New Sung", "AR PL SungtiL GB", NSimSun, SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU, monospace;
-                }
-              </style>
+              /> #삭제
             - | # 修复行内图片默认样式
               <style>
                 img {
