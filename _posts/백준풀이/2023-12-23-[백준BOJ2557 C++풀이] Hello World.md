@@ -4,11 +4,15 @@ tags:
   - 백준풀이
 ---
 
-[https://www.acmicpc.net/problem/2557](https://www.acmicpc.net/problem/2557)<br>
+> 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+> 
+> [https://www.acmicpc.net/problem/2557](https://www.acmicpc.net/problem/2557)<br>
+
 ***
 
 ### 풀이
 문제 그대로 "Hello World!"를 출력하면 된다.
+
 ***
 ### 제출
 
