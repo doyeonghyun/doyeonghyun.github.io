@@ -21,9 +21,10 @@
 
 - **python**
 - **C/C++**
+- **C#** studying
 
 <!-- .slide vertical=true -->
 ## Tool
 
 - **Visual Studio**
-- **Unity**
+- **Unity** studying
