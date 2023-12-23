@@ -535,7 +535,7 @@ readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
 
 webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
-  google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
+  google: <meta name="google-site-verification" content="KuN3bt-h1H0VwtQnSj2jilYrmCE6MKfN00XR81Rb9_4" />
   baidu: szbTSfUGAB
 
 permalink: pretty
@@ -565,5 +565,3 @@ kramdown: # 见<https://kramdown.gettalong.org/options.html>
 #kramdown:
 #  math_engine: mathjax
 #  syntax_highlighter: rouge
-
-google_site_verification: <meta name="google-site-verification" content="KuN3bt-h1H0VwtQnSj2jilYrmCE6MKfN00XR81Rb9_4" />
