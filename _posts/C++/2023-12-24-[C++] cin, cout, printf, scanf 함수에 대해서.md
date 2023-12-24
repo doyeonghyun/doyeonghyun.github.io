@@ -7,7 +7,7 @@ tags:
 ![](https://velog.velcdn.com/images/doyeong0526/post/e0618787-9b8e-4ce9-ba68-199b787a2467/image.PNG)
 
 
-2일 전에 풀어보았던 BOJ10950 문제. 연산을 하는 데 cin, cout 함수를 사용했더니 메모리 2020KB, 시간 4ms이 걸린다. 
+이전에 풀어보았던 BOJ10950 문제. 연산을 하는 데 cin, cout 함수를 사용했더니 메모리 2020KB, 시간 4ms이 걸린다. 
 
 ```
 ios_base::sync_with_stdio(false);
