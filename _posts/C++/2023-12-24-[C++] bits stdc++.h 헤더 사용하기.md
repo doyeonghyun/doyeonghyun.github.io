@@ -1,5 +1,5 @@
 ---
-title: "[C++] <bits/stdc++.h 헤더> 사용하기"
+title: "[C++] bits/stdc++.h 헤더 사용하기"
 tags: 
  - C++
 ---
