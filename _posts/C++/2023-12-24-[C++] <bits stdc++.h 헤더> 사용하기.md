@@ -17,6 +17,7 @@ tags:
 <details>
 <summary><bits/stdc++.h> 내부</summary>
 
+<div markdown="1">
 ***
 
 ```
@@ -100,6 +101,7 @@ tags:
 #include <unordered_map>
 #include <unordered_set>
 ```
+</div>
 </details>
 
 ***
