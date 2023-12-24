@@ -115,4 +115,6 @@ tags:
 > 설치 환경에 따라 경로의 차이가 있을 수 있다.
 
 include 파일 안에 bits 파일 생성 후 stdc++.h 헤더 넣기
+![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/cca5b82b-53e9-4971-b7d3-73861393d564)
+![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/c8a9d2c0-4a25-4565-92c0-66b15d1e3c30)
 
