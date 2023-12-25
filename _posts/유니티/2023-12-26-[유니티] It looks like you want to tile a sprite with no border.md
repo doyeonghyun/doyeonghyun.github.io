@@ -45,6 +45,8 @@ tags:
 
 2. This Image doesn't have a border.
 
+   Image 타입이 sliced일 때 해당 오류가 나온다.
+
   ![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/ea307651-f381-4256-8b55-ecb4f6d437f8)
    
    Window > Package manager로 들어간 후 2021.3.32f1 기준으로 Packages: Unity Registry에서 2D sprite를 설치한다.
