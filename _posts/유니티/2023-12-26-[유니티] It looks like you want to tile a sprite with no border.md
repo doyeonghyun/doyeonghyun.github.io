@@ -28,7 +28,7 @@ tags:
 ### 기타 오류
 
 
-1. Only textures with width/height being multiple of 4 can be compressed to DXT5 BC3 format는 넓이와 높이가 4의 배수인 텍스쳐만 DXT5 BC3 포맷으로 압축이 가능하다는 내용이다. 따라서 사진의 크기를 확인해야 된다.
+1. Only textures with width/height being multiple of 4 can be compressed to DXT5 BC3 format은 넓이와 높이가 4의 배수인 텍스쳐만 DXT5 BC3 포맷으로 압축이 가능하다는 내용이다. 따라서 사진의 크기를 확인해야 된다.
 
    ![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/1746bbab-09b1-4273-8332-b5f6121e7b79)
 
