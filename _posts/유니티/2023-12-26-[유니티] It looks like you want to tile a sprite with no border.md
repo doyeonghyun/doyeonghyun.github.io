@@ -54,12 +54,15 @@ tags:
 > This Image doesn't have a border.
 
 Window > Package manager로 들어간 후 2021.3.32f1 기준으로 Packages: Unity Registry에서 2D sprite를 설치한다.
+
 ![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/ce9a88c7-6446-4411-ac4d-1fd7f9f92a98)
 
 이후에 이미지 Inspector에 들어가면 텍스쳐 타입이 Sprite인 경우에 Sprite Editor를 확인할 수 있다.
+
 ![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/15546b5b-0bc1-4a1a-a28c-5ef525a4f9ca)
 
 Sprite Editor 창으로 통해 Border값을 LRTB 중 하나라도 수정하고 save하면 해당 오류가 나오지 않는 것을 확인할 수 있다.
+
 ![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/59182b7f-85fd-4477-bb98-dd2a46d7f401)
 
 
@@ -67,4 +70,5 @@ Sprite Editor 창으로 통해 Border값을 LRTB 중 하나라도 수정하고 s
 
 #### 참조
 [https://fiftiesstudy.tistory.com/258](https://fiftiesstudy.tistory.com/258)
+
 [https://sunpil.tistory.com/482](https://sunpil.tistory.com/482)
