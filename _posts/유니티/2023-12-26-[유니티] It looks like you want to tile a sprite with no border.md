@@ -43,7 +43,8 @@ tags:
 
 ![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/f35df55e-6cf0-49cd-a05e-d802962764a5)
 
-![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/085efc92-4a0b-4ccd-9ff2-952f079c9f0a)
+![image](https://github.com/doyeonghyun/doyeonghyun.github.io/assets/68155575/f74881c9-e911-4aec-b824-de0d6fa4e813)
+
 
 ***
 
