@@ -2,7 +2,7 @@
 title: "[유니티] Shader channels Normal and Tangent are most often used with lighting"
 tags: 
 - 오류 기록
-- 알고리즘
+- 유니티
 ---
 
 ## **에러:Shader channels Normal and Tangent are most often used with lighting**
