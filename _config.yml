@@ -458,14 +458,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           date:
             enable: true
             prepend: <i class="fa-solid fa-calendar-day fa-fw"></i>
-          copyright:
-            | 
-            <i class="fab fa-creative-commons-by fa-fw"></i>
-            <a
-              href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko"
-              rel="license">
-              CC BY-NC-ND 4.0 DEED
-            </a>
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
           append_to_section_tag:
             - key: data-markdown
